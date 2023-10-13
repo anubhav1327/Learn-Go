@@ -1,0 +1,169 @@
+{
+  "tldrawFileFormatVersion": 1,
+  "schema": {
+    "schemaVersion": 1,
+    "storeVersion": 4,
+    "recordVersions": {
+      "asset": {
+        "version": 1,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "image": 2,
+          "video": 2,
+          "bookmark": 0
+        }
+      },
+      "camera": {
+        "version": 1
+      },
+      "document": {
+        "version": 2
+      },
+      "instance": {
+        "version": 21
+      },
+      "instance_page_state": {
+        "version": 5
+      },
+      "page": {
+        "version": 1
+      },
+      "shape": {
+        "version": 3,
+        "subTypeKey": "type",
+        "subTypeVersions": {
+          "group": 0,
+          "text": 1,
+          "bookmark": 1,
+          "draw": 1,
+          "geo": 7,
+          "note": 4,
+          "line": 1,
+          "frame": 0,
+          "arrow": 1,
+          "highlight": 0,
+          "embed": 4,
+          "image": 2,
+          "video": 1
+        }
+      },
+      "instance_presence": {
+        "version": 5
+      },
+      "pointer": {
+        "version": 1
+      }
+    }
+  },
+  "records": [
+    {
+      "gridSize": 10,
+      "name": "",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    {
+      "id": "pointer:pointer",
+      "typeName": "pointer",
+      "x": 295,
+      "y": 610,
+      "lastActivityTimestamp": 1697103612454,
+      "meta": {}
+    },
+    {
+      "meta": {},
+      "id": "page:Oc2TGy6Xifhfb82Jq14Sp",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "z": 1,
+      "meta": {},
+      "id": "camera:page:Oc2TGy6Xifhfb82Jq14Sp",
+      "typeName": "camera"
+    },
+    {
+      "editingShapeId": null,
+      "croppingShapeId": null,
+      "selectedShapeIds": [],
+      "hoveredShapeId": null,
+      "erasingShapeIds": [],
+      "hintingShapeIds": [],
+      "focusedGroupId": null,
+      "meta": {},
+      "id": "instance_page_state:page:Oc2TGy6Xifhfb82Jq14Sp",
+      "pageId": "page:Oc2TGy6Xifhfb82Jq14Sp",
+      "typeName": "instance_page_state"
+    },
+    {
+      "followingUserId": null,
+      "opacityForNextShape": 1,
+      "stylesForNextShape": {
+        "tldraw:fill": "pattern",
+        "tldraw:horizontalAlign": "start",
+        "tldraw:size": "s"
+      },
+      "brush": null,
+      "scribble": null,
+      "cursor": {
+        "type": "default",
+        "rotation": 0
+      },
+      "isFocusMode": false,
+      "exportBackground": true,
+      "isDebugMode": false,
+      "isToolLocked": false,
+      "screenBounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1478,
+        "h": 912
+      },
+      "zoomBrush": null,
+      "isGridMode": false,
+      "isPenMode": false,
+      "chatMessage": "",
+      "isChatting": false,
+      "highlightedUserIds": [],
+      "canMoveCamera": true,
+      "isFocused": false,
+      "devicePixelRatio": 1,
+      "isCoarsePointer": false,
+      "isHoveringCanvas": true,
+      "openMenus": [],
+      "isChangingStyle": false,
+      "isReadonly": false,
+      "meta": {},
+      "id": "instance:instance",
+      "currentPageId": "page:Oc2TGy6Xifhfb82Jq14Sp",
+      "typeName": "instance"
+    },
+    {
+      "x": 34,
+      "y": 59,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:_xDWH4PzVYhu8_NBfiwar",
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "s",
+        "w": 1177,
+        "text": "function syntax = isme return hi krna hota hai isme function ke andar print command nhi use ka r sakte hai \n// and synatax me phle bricket me variables define kre then next bricket me return type definekre 2 return use kr sakte hai ya ek bhi like func functionname(variable 1, variable 2 , ...)  (return type[int, string jo bhi ho] , error)  ||  return type = keval isse bhi kaam chala skte hai\n\nsyntax - one:-\n              func test(num1, num2) (int, error){\n                  return num1+num2, nil(ye error ke liye likhte hai)\n               }\n\nsyntax - two:-    \n              func test(num1, num2) int{\n                  return num1+num2\n               } \n\n function call :-\n                   main function me\n\n               a := 23\n               b  := 34\n              test(a,b) || fmt.Println(test(a,b))",
+        "font": "draw",
+        "align": "start",
+        "autoSize": false,
+        "scale": 1
+      },
+      "parentId": "page:Oc2TGy6Xifhfb82Jq14Sp",
+      "index": "a1",
+      "typeName": "shape"
+    }
+  ]
+}
