@@ -11,7 +11,21 @@ const (
 )
 
 func main() {
+
+	var anu = 98
 	fmt.Println("Conditional Statement is here")
+	// fmt.Println(anu)
+	fmt.Println(first)
+	fmt.Println(second)
+	fmt.Println(third)
+	fmt.Println(fourth)
+	fmt.Println(fifth)
+
+	if anu == 90 {
+		fmt.Println("Anu is present")
+	} else {
+		fmt.Println("Anu is absent")
+	}
 
 	if third == 97 {
 		fmt.Println("true 1")
