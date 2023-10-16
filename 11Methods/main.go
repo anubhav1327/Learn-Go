@@ -1,8 +1,8 @@
 /* By chatGpt
 
 
-Methods:- n Go (often referred to as Golang), a method is a function associated with a type. Methods allow you to define behaviors that can be performed on values of a specific type. They are similar to functions, but they have a receiver,
-which is a parameter associated with the type they operate on.Methods are a way to add behaviors or operations to your custom data types.
+Methods:- n Go (often referred to as Golang), a method is a function associated with a type. Methods allow you to define behaviors that can be performed on values of a specific type. 
+They are similar to functions, but they have a receiver,which is a parameter associated with the type they operate on.Methods are a way to add behaviors or operations to your custom data types.
 
 Here's a simple explanation with an example:
 
