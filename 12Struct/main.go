@@ -1,7 +1,8 @@
 /*
 By chatGpt:-
 
-Struct :- In Go (or Golang), a struct is a composite data type that groups together variables with different data types under a single name. Think of it like a container that can hold various pieces of data, much like a struct in the real world can have different properties like height, weight, and color.
+Struct :- In Go (or Golang), a struct is a composite data type that groups together variables with different data types under a single name. Think of it like a container 
+that can hold various pieces of data, much like a struct in the real world can have different properties like height, weight, and color.
 
 Here's a simple explanation of a struct with an example:
 
@@ -36,7 +37,8 @@ In this example, we define a Person struct with three fields: Name, Age, and IsM
 
 You can access and modify the fields of the person1 struct just like you would with any other variable. This allows you to group related data together in a structured way.
 
-In summary, a struct in Go is a custom data type that lets you bundle multiple variables together under a single name, and it's commonly used to represent objects or data with different attributes in your programs.
+In summary, a struct in Go is a custom data type that lets you bundle multiple variables together under a single name, and it's commonly used to represent objects or data with different
+attributes in your programs.
 
 
 
