@@ -69,4 +69,6 @@ func main() {
 	}
 
 	fmt.Println(u)
+	fmt.Println(u.name)
+	fmt.Println(u.age)
 }
