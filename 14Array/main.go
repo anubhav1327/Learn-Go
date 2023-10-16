@@ -73,4 +73,24 @@ func main() {
 	fmt.Println(a2 == a3)
 	fmt.Println(a3 == a1)
 
+	// array ki value refecence pe change hoti hai direct nhi change hoti hai
+
+	ar := a1
+
+	fmt.Println("Copy array value-", ar)
+
+	ar[0] = 10
+	fmt.Println("Trying to change array value", ar)
+	fmt.Println("But array value in array is still same-", a1)
+
+	// ab by refenence chnage krte hai to new array ki value ke sth sth purani array ki value bhi chanhge hogi
+
+	ar2 := &a1
+
+	fmt.Println("Copy array value-", ar2)
+
+	ar2[0] = 10
+	fmt.Println("Trying to change array value", ar2)
+	fmt.Println("But array value in array is also change-", a1)
+
 }
