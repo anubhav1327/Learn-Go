@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const (
+const ( // Const ki kuch functionality samaj nhi aayo jaise "" kyu nhi support krna and iota starting se kyu count krta ha =i agar iota bich me bhi lete hai to bhi wah bich me se 0 se start nhi hota const me jitne upar variable hota hai un sabko add krke next se start hota hai to hame const ko deeply samjna padega special const video me
 	first = iota
 	second
 	third = 'a'

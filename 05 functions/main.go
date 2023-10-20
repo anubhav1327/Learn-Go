@@ -1,3 +1,11 @@
+// Functions type
+
+// 1- Pass by value
+// 2- Pass by reference
+// 3- Anonymous Function
+// 4- Variadic function
+// 5- init Function
+
 package main
 
 import "fmt"

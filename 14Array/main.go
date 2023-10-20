@@ -87,7 +87,7 @@ func main() {
 
 	ar2 := &a1
 
-	fmt.Println("Copy array value-", ar2)
+	fmt.Println("Copy array value Second time for reference-", ar2)
 
 	ar2[0] = 10
 	fmt.Println("Trying to change array value", ar2)

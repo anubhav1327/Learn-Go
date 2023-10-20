@@ -1,0 +1,9 @@
+Concurrency = agar koi task multiple process ke upar depend hota hai to Concurrency sabhi process ko run bhi krti
+hai or sath sath manage bhi krti hai 
+
+Parallelism = agar koi task multiple process ke upar depend hota hai to Parallelism sabhi process ko run krti
+hai or manage nhi krti hai 
+
+
+
+not clear
