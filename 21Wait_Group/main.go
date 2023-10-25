@@ -9,8 +9,9 @@ func main() {
 
 		Use of Wait Group :-
 
-		1:- How we can control go routines using wait group
+		1:- HoREUKIYIw we can control go routines using wait group
 		2:- method which control go routines 5
 
 	*/
+
 }

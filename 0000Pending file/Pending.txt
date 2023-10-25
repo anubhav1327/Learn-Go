@@ -1,0 +1,13 @@
+first step = we have learn every topic from youtube
+second step = we have to learn from chat gpt and also ask every doubt from chat gpt like what is method/interfaces/slices/goroutines  and what is the use of this.
+third step = we have to learn from gobyexample
+
+
+
+Slices --> file no 15
+
+Panic_Recover --> file no 16
+
+ConcurrencyAndParallelism --> file no 17
+
+Wait_Group  --> file no 21
